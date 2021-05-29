@@ -1,0 +1,1656 @@
+fileFormatVersion: 2
+guid: f7fce1966edda0346865d23712a1ed22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8950789121828934401
+    second: All the Cards Texture1_0
+  - first:
+      213: -8640174308365985457
+    second: All the Cards Texture1_1
+  - first:
+      213: 4534727146660562838
+    second: All the Cards Texture1_2
+  - first:
+      213: -8098953947886566061
+    second: All the Cards Texture1_3
+  - first:
+      213: -6076142857997022913
+    second: All the Cards Texture1_4
+  - first:
+      213: -317128309917280391
+    second: All the Cards Texture1_5
+  - first:
+      213: -1417161728055905025
+    second: All the Cards Texture1_6
+  - first:
+      213: -5784109492509320022
+    second: All the Cards Texture1_7
+  - first:
+      213: 6161050539268184312
+    second: All the Cards Texture1_8
+  - first:
+      213: -6237860403345703054
+    second: All the Cards Texture1_9
+  - first:
+      213: 2687185263215101281
+    second: All the Cards Texture1_10
+  - first:
+      213: 9009196553464761979
+    second: All the Cards Texture1_11
+  - first:
+      213: -2054878355729779345
+    second: All the Cards Texture1_12
+  - first:
+      213: -492155839246478097
+    second: All the Cards Texture1_13
+  - first:
+      213: 8065304498399436352
+    second: All the Cards Texture1_14
+  - first:
+      213: -208660175646406608
+    second: All the Cards Texture1_15
+  - first:
+      213: 8744443282694917880
+    second: All the Cards Texture1_16
+  - first:
+      213: 3283776819176202563
+    second: All the Cards Texture1_17
+  - first:
+      213: -3332955087387727890
+    second: All the Cards Texture1_18
+  - first:
+      213: -6428669603892790424
+    second: All the Cards Texture1_19
+  - first:
+      213: -2843905149863697395
+    second: All the Cards Texture1_20
+  - first:
+      213: 3049437742984792143
+    second: All the Cards Texture1_21
+  - first:
+      213: -809696935042278099
+    second: All the Cards Texture1_22
+  - first:
+      213: 7602518096987009601
+    second: All the Cards Texture1_23
+  - first:
+      213: -1333235853559407597
+    second: All the Cards Texture1_24
+  - first:
+      213: 1432788871993581343
+    second: All the Cards Texture1_25
+  - first:
+      213: -625327286997339664
+    second: All the Cards Texture1_26
+  - first:
+      213: -7761207474105106922
+    second: All the Cards Texture1_27
+  - first:
+      213: -4919340881125685370
+    second: All the Cards Texture1_28
+  - first:
+      213: -8713777626410962835
+    second: All the Cards Texture1_29
+  - first:
+      213: 355310303449509064
+    second: All the Cards Texture1_30
+  - first:
+      213: 7152774894489160048
+    second: All the Cards Texture1_31
+  - first:
+      213: -8497982129780125764
+    second: All the Cards Texture1_32
+  - first:
+      213: -1496430868142519614
+    second: All the Cards Texture1_33
+  - first:
+      213: 2532969486790554524
+    second: All the Cards Texture1_34
+  - first:
+      213: -938852076267522669
+    second: All the Cards Texture1_35
+  - first:
+      213: -2227311470003898990
+    second: All the Cards Texture1_36
+  - first:
+      213: 8112449748711273662
+    second: All the Cards Texture1_37
+  - first:
+      213: -7051925123104457790
+    second: All the Cards Texture1_38
+  - first:
+      213: -7413768840017987424
+    second: All the Cards Texture1_39
+  - first:
+      213: -3361561608725903933
+    second: All the Cards Texture1_40
+  - first:
+      213: -9161555396850953655
+    second: All the Cards Texture1_41
+  - first:
+      213: -3153245863582326529
+    second: All the Cards Texture1_42
+  - first:
+      213: -324286822973695706
+    second: All the Cards Texture1_43
+  - first:
+      213: 8211538437617346811
+    second: All the Cards Texture1_44
+  - first:
+      213: -3472646680790016661
+    second: All the Cards Texture1_45
+  - first:
+      213: -8011886428642921418
+    second: All the Cards Texture1_46
+  - first:
+      213: 2989477343497872762
+    second: All the Cards Texture1_47
+  - first:
+      213: 5773876015154680900
+    second: All the Cards Texture1_48
+  - first:
+      213: -2103395940906633017
+    second: All the Cards Texture1_49
+  - first:
+      213: 3891768877543792250
+    second: All the Cards Texture1_50
+  - first:
+      213: -4696661188053296636
+    second: All the Cards Texture1_51
+  - first:
+      213: 8819314830296812517
+    second: All the Cards Texture1_52
+  - first:
+      213: 7145972974299005265
+    second: All the Cards Texture1_53
+  - first:
+      213: 1518079872930003369
+    second: All the Cards Texture1_54
+  - first:
+      213: -3704134059166715257
+    second: All the Cards Texture1_55
+  - first:
+      213: 602805201022892943
+    second: All the Cards Texture1_56
+  - first:
+      213: -5896383184044831752
+    second: All the Cards Texture1_57
+  - first:
+      213: 4435466022562587153
+    second: All the Cards Texture1_58
+  - first:
+      213: 1121004686733019340
+    second: All the Cards Texture1_59
+  - first:
+      213: 8962249141020801801
+    second: All the Cards Texture1_60
+  - first:
+      213: 4722019462139475791
+    second: All the Cards Texture1_61
+  - first:
+      213: -7394652659460943395
+    second: All the Cards Texture1_62
+  - first:
+      213: 7435787810283890382
+    second: All the Cards Texture1_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All the Cards Texture1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffca4fd87b868c380800000000000000
+      internalID: -8950789121828934401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1293
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4993608e3fe71880800000000000000
+      internalID: -8640174308365985457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697060a50569eee30800000000000000
+      internalID: 4534727146660562838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_3
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1293
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35549f36b4cba9f80800000000000000
+      internalID: -8098953947886566061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398f8073443daba0800000000000000
+      internalID: -6076142857997022913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_5
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1293
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977192b7b75599bf0800000000000000
+      internalID: -317128309917280391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_6
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f2f1baea355ce0800000000000000
+      internalID: -1417161728055905025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_7
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5405ef07babfa0800000000000000
+      internalID: -5784109492509320022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_8
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1293
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81f44a2d2708550800000000000000
+      internalID: 6161050539268184312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_9
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fba14430bae69a0800000000000000
+      internalID: -6237860403345703054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_10
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1293
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c99372ccca4520800000000000000
+      internalID: 2687185263215101281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_11
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1293
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ec0f85888170d70800000000000000
+      internalID: 9009196553464761979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65761ec50b9b73e0800000000000000
+      internalID: -2054878355729779345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1034
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4549b2fd28b29f0800000000000000
+      internalID: -492155839246478097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5570a5b7bdef60800000000000000
+      internalID: 8065304498399436352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_15
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1034
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03843dffca0ba1df0800000000000000
+      internalID: -208660175646406608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_16
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fec497e5d08a5970800000000000000
+      internalID: 8744443282694917880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_17
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1034
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341e8ac6e91529d20800000000000000
+      internalID: 3283776819176202563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_18
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee76cebb107feb1d0800000000000000
+      internalID: -3332955087387727890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_19
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b7e994e07c8c6a0800000000000000
+      internalID: -6428669603892790424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_20
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1034
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d046877755b6888d0800000000000000
+      internalID: -2843905149863697395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_21
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48074b7877c15a20800000000000000
+      internalID: 3049437742984792143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_22
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1034
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d15137de063c4f0800000000000000
+      internalID: -809696935042278099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_23
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1034
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b369ede1918960800000000000000
+      internalID: 7602518096987009601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd6c21e056f7de0800000000000000
+      internalID: -1333235853559407597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 776
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f5f4943e942e310800000000000000
+      internalID: 1432788871993581343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f13a2645246257f0800000000000000
+      internalID: -625327286997339664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 776
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ebbd54ce6aa4490800000000000000
+      internalID: -7761207474105106922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687427b488dfabbb0800000000000000
+      internalID: -4919340881125685370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_29
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 776
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6037069a61721780800000000000000
+      internalID: -8713777626410962835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_30
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cce426a6d05ee400800000000000000
+      internalID: 355310303449509064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_31
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079cb589ed2c34360800000000000000
+      internalID: 7152774894489160048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_32
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 776
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf86d6f64a111a80800000000000000
+      internalID: -8497982129780125764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_33
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca8f69cd0c9b3be0800000000000000
+      internalID: -1496430868142519614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_34
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 776
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93fd07f35ae62320800000000000000
+      internalID: 2532969486790554524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_35
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 776
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395bf69c20788f2f0800000000000000
+      internalID: -938852076267522669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295b342d4000711e0800000000000000
+      internalID: -2227311470003898990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 517
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4742a9016359070800000000000000
+      internalID: 8112449748711273662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_38
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb4b69677822e90800000000000000
+      internalID: -7051925123104457790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_39
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 517
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83ed315800d1990800000000000000
+      internalID: -7413768840017987424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_40
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c54d45f6855951d0800000000000000
+      internalID: -3361561608725903933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_41
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d2a418ed9bd080800000000000000
+      internalID: -9161555396850953655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_42
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0a4bbf79b6d34d0800000000000000
+      internalID: -3153245863582326529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_43
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62910574ad6ef7bf0800000000000000
+      internalID: -324286822973695706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_44
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 517
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8e5a1d3be35f170800000000000000
+      internalID: 8211538437617346811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_45
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d52112e3eaecfc0800000000000000
+      internalID: -3472646680790016661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_46
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 517
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63437ffedbf00d090800000000000000
+      internalID: -8011886428642921418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_47
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 517
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75e4431ec1cc7920800000000000000
+      internalID: 2989477343497872762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444517cf4ade02050800000000000000
+      internalID: 5773876015154680900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 259
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f248398c3fc2e0800000000000000
+      internalID: -2103395940906633017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1be5bc27520630800000000000000
+      internalID: 3891768877543792250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_51
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 259
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a18bf888b12deb0800000000000000
+      internalID: -4696661188053296636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_52
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb0d268c10846a70800000000000000
+      internalID: 8819314830296812517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_53
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 259
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15142a32f889b2360800000000000000
+      internalID: 7145972974299005265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_54
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9b9aee99d411510800000000000000
+      internalID: 1518079872930003369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_55
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78231f2d2b5489cc0800000000000000
+      internalID: -3704134059166715257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_56
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 259
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3ab3f2289d5800800000000000000
+      internalID: 602805201022892943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_57
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbcb670cb6db2ea0800000000000000
+      internalID: -5896383184044831752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_58
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 259
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126820f8d0fd8d30800000000000000
+      internalID: 4435466022562587153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_59
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 259
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc80540c2db9e8f00800000000000000
+      internalID: 1121004686733019340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b38171c1e406c70800000000000000
+      internalID: 8962249141020801801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47fd47beabf78140800000000000000
+      internalID: 4722019462139475791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_62
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 165
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1de63b59ae06990800000000000000
+      internalID: -7394652659460943395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All the Cards Texture1_63
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 166
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6a621fd99313760800000000000000
+      internalID: 7435787810283890382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
