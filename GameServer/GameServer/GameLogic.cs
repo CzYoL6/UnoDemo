@@ -98,7 +98,7 @@ namespace GameServer {
 
 
             Random r = new Random();
-            currentPlayerId = r.Next(4) + 1;
+            currentPlayerId = r.Next(Server.MaxPlayers) + 1;
            // currentPlayerId = 4;
 
 
@@ -159,23 +159,29 @@ namespace GameServer {
 
                 DealCardToClient(_firstPlayerId);
                 Thread.Sleep(50);
-                DealCardToClient(_secondId);
-                Thread.Sleep(50);
-                DealCardToClient(_thirdId);
-                Thread.Sleep(50);
-                DealCardToClient(_fourthId);
-                Thread.Sleep(50);
+                if (Server.MaxPlayers >= 2) {
+                    DealCardToClient(_secondId);
+                    Thread.Sleep(50);
+                }
+                if (Server.MaxPlayers >= 3) {
+                    DealCardToClient(_thirdId);
+                    Thread.Sleep(50);
+                }
+                if (Server.MaxPlayers >= 4) {
+                    DealCardToClient(_fourthId);
+                    Thread.Sleep(50);
+                }
             }
         }
 
         public static int getNextIdInDir(int _now, DIRECTION _dir) {
             if(_dir == DIRECTION.CLOCKWISE) {
                 _now--;
-                if (_now <= 0) _now += 4;
+                if (_now <= 0) _now += Server.MaxPlayers;
                 return _now;
             }
             else {
-                return (_now % 4) + 1;
+                return (_now % Server.MaxPlayers) + 1;
             }
         }
 
@@ -234,9 +240,9 @@ namespace GameServer {
 
         public static void ReportSuccess(int exceptId) {
             Server.clients[exceptId].ReportSuccess();
-            Thread.Sleep(10);
+            Thread.Sleep(50);
             DealCardToClient(lastPlayerId);
-            Thread.Sleep(10);
+            Thread.Sleep(50);
             DealCardToClient(lastPlayerId);
         }
     }

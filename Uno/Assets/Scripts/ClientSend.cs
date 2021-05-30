@@ -19,7 +19,7 @@ public class ClientSend : MonoBehaviour
     public static void WelcomeReceived() {
         using (Packet _packet = new Packet((int)ClientPackets.welcomeReceived)) {
             _packet.Write(Client.instance.myId);
-            _packet.Write(UIManager.instance.roomPanelUserNameInputField.GetComponent<InputField>().text);
+            _packet.Write(Client.instance.userName);
 
             SendTCPData(_packet);
         }
@@ -29,7 +29,7 @@ public class ClientSend : MonoBehaviour
         using (Packet _packet = new Packet((int)ClientPackets.PlayCard)) {
             
 
-            Card _card = GameManager.instance.localPlayer.GetComponent<PlayerManager>().selectedCard;
+            Card _card = GameManager_game.instance.localPlayer.GetComponent<PlayerManager>().selectedCard;
             _packet.Write(_card);
             _packet.Write(uno);
             _packet.Write(leftCount);
@@ -88,37 +88,46 @@ public class ClientSend : MonoBehaviour
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://120.79.166.136:5000/GetServerInfos");
         //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:5000/GetServerInfos");
 
-        request.Method = "GET";
+        request.Method = "POST";
         request.ContentType = "application/json";
-        
-        HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-        string encoding = response.ContentEncoding;
-        if (encoding == null || encoding.Length < 1) {
-            encoding = "UTF-8"; 
+        string content = "{\"version\":" + Application.version + "}";
+
+        using (Stream resStream = request.GetRequestStream()) {
+            using (StreamWriter dataStream = new StreamWriter(resStream)) {
+                dataStream.Write(content);
+                dataStream.Close();
+            }
         }
+        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse()) {
+            string encoding = response.ContentEncoding;
+            if (encoding == null || encoding.Length < 1) {
+                encoding = "UTF-8";
+            }
 
-        StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(encoding));
-        string retString = reader.ReadToEnd();
-        Debug.Log(retString);
-        JavaScriptObject jo = (JavaScriptObject)JavaScriptConvert.DeserializeObject(retString);
-        JavaScriptArray serverArray = (JavaScriptArray)jo["serverInfo"];
-        //Debug.Log(serversInString[0]);
-        for(int i = 0; i < serverArray.Count; i++) {
-            ServerInfo serverInfo = new ServerInfo() {
-                ip = ((JavaScriptObject)serverArray[i])["ip"].ToString(),
-                port = int.Parse(((JavaScriptObject)serverArray[i])["port"].ToString()),
-                maxPlayer = int.Parse(((JavaScriptObject)serverArray[i])["maxPlayer"].ToString()),
-                onlinePlayer = int.Parse(((JavaScriptObject)serverArray[i])["onlinePlayer"].ToString()),
-                name = ((JavaScriptObject)serverArray[i])["name"].ToString()
-            };
-            serverInfos.Add(serverInfo);
-            Debug.Log(serverInfo.ip+" "+serverInfo.port+" "+serverInfo.maxPlayer+" "+serverInfo.onlinePlayer);
 
+            StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(encoding));
+            string retString = reader.ReadToEnd();
+            // Debug.Log(retString);
+            JavaScriptObject jo = (JavaScriptObject)JavaScriptConvert.DeserializeObject(retString);
+            JavaScriptArray serverArray = (JavaScriptArray)jo["serverInfo"];
+            //Debug.Log(serversInString[0]);
+            for (int i = 0; i < serverArray.Count; i++) {
+                ServerInfo serverInfo = new ServerInfo() {
+                    ip = ((JavaScriptObject)serverArray[i])["ip"].ToString(),
+                    port = int.Parse(((JavaScriptObject)serverArray[i])["port"].ToString()),
+                    maxPlayer = int.Parse(((JavaScriptObject)serverArray[i])["maxPlayer"].ToString()),
+                    onlinePlayer = int.Parse(((JavaScriptObject)serverArray[i])["onlinePlayer"].ToString()),
+                    name = ((JavaScriptObject)serverArray[i])["name"].ToString()
+                };
+                serverInfos.Add(serverInfo);
+                // Debug.Log(serverInfo.ip+" "+serverInfo.port+" "+serverInfo.maxPlayer+" "+serverInfo.onlinePlayer);
+
+            }
+            //string zone_en = jo["zone_en"].ToString();
+            //JavaScriptArray a = (JavaScriptArray)JavaScriptConvert.DeserializeObject(serversInString);
+
+            //Debug.Log(a);
         }
-        //string zone_en = jo["zone_en"].ToString();
-        //JavaScriptArray a = (JavaScriptArray)JavaScriptConvert.DeserializeObject(serversInString);
-
-        //Debug.Log(a);
         return serverInfos;
     }
     #endregion

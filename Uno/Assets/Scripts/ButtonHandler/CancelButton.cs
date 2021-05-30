@@ -6,7 +6,7 @@ public class CancelButton : MonoBehaviour
 {
     public void cancel() {
         AudioManager.instance.Play("skip");
-        GameManager.instance.ItsMyTurn(false);
+        GameManager_game.instance.ItsMyTurn(false);
         ClientSend.CannotContinnue();
         gameObject.SetActive(false);
     }

@@ -133,7 +133,7 @@ public class PlayerManager : MonoBehaviour
 
     public void win() {
         winnerSign.SetActive(true);
-        UIManager.instance.restartButton.SetActive(true);
+        UIManager_game.instance.restartButton.SetActive(true);
     }
 
     public void Uno() {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class reportButton : MonoBehaviour
 {
     public void report() {
-        GameManager.instance.reportSuccess();
+        GameManager_game.instance.reportSuccess();
         gameObject.SetActive(false);
     }
 }

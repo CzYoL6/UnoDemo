@@ -5,6 +5,8 @@ const { json } = require('express');
 
 const app = new express();
 
+const version = 1.2;
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -47,7 +49,16 @@ app.post('/UnregisterGameServerInfo', (req, res, next) => {
     });
 });
 
-app.get('/GetServerInfos', (req, res, next) => {
+app.post('/GetServerInfos', (req, res, next) => {
+    console.log(req.body.version);
+    console.log(version);
+    if(req.body.version != version) {
+        console.log('need update');
+        return res.status(200).json({
+            title: "please update",
+            serverInfo: []
+        });
+    }
     var serverInfos = [];
     for(var x in servers){
         serverInfos.push({

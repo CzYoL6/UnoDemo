@@ -7,6 +7,6 @@ public class RestartButton : MonoBehaviour
 {
     public void restart() {
         Client.instance.Disconnect();
-        GameManager.instance.Restart();
+        GameManager_game.instance.Restart();
     }
 }

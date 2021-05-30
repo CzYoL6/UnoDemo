@@ -8,8 +8,8 @@ public class CheckDoneButton : MonoBehaviour
         
     }
     public void checkDone(int playerId) {
-        GameManager.instance.otherPlayers[playerId].GetComponent<PlayerManager>().showAllCards(false);
-        GameManager.instance.checkIfQuestionStands(playerId);
+        GameManager_game.instance.otherPlayers[playerId].GetComponent<PlayerManager>().showAllCards(false);
+        GameManager_game.instance.checkIfQuestionStands(playerId);
         
         gameObject.SetActive(false);
         //GameManager.instance.Restart();

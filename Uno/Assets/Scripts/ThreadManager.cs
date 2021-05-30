@@ -7,6 +7,10 @@ public class ThreadManager : MonoBehaviour {
     private static readonly List<Action> executeCopiedOnMainThread = new List<Action>();
     private static bool actionToExecuteOnMainThread = false;
 
+    private void Start() {
+        DontDestroyOnLoad(gameObject);
+    }
+
     private void Update() {
         UpdateMain();
     }

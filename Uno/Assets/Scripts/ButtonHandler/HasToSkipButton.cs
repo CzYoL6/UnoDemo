@@ -6,7 +6,7 @@ public class HasToSkipButton : MonoBehaviour
 {
     public void hasToSkip() {
         AudioManager.instance.Play("skip");
-        GameManager.instance.ItsMyTurn(false);
+        GameManager_game.instance.ItsMyTurn(false);
 
         ClientSend.Skipped();
         

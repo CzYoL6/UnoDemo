@@ -5,15 +5,15 @@ using UnityEngine;
 public class PlayButton : MonoBehaviour
 {
     public void PlayCard(bool uno) {
-        Card _selectedCard = GameManager.instance.localPlayer.GetComponent<PlayerManager>().selectedCard;
-        Card _lastCard = GameManager.instance.theLastCard;
+        Card _selectedCard = GameManager_game.instance.localPlayer.GetComponent<PlayerManager>().selectedCard;
+        Card _lastCard = GameManager_game.instance.theLastCard;
         if (_lastCard.color == _selectedCard.color || _lastCard.value == _selectedCard.value) {
             //ºÏ·¨
-            GameManager.instance.mePlayCard(uno);
+            GameManager_game.instance.mePlayCard(uno);
             
         }
         else {
-            GameManager.instance.localPlayer.GetComponent<PlayerManager>().unPickAllCards();
+            GameManager_game.instance.localPlayer.GetComponent<PlayerManager>().unPickAllCards();
         }
         gameObject.SetActive(false);
     }

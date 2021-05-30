@@ -23,7 +23,7 @@ namespace GameServer {
             foreach(Client _client in Server.clients.Values) {
                 if (_client.player != null) count++;
             }
-            if(count == 4) {
+            if(count == Server.MaxPlayers) {
                 //为简单起见，准备好直接开始游戏
                 GameLogic.startGame();
             }

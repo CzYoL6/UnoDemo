@@ -62,6 +62,7 @@ namespace GameServer {
                     if(_byteLength <= 0) {
                         //disconnect
                         //Server.clients[id].Disconnect();
+                        Console.WriteLine($"client {id} error.");
                         foreach (var x in Server.clients.Values) {
                             if (x.player != null) x.Disconnect();
                         }
@@ -76,7 +77,7 @@ namespace GameServer {
                     stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
                 }
                 catch (Exception _ex) {
-
+                    Console.WriteLine($"client {id} error.");
                     Console.WriteLine($"Error receiving TCP data: {_ex}");
                     //disconnect
                     //Server.clients[id].Disconnect();
@@ -143,7 +144,14 @@ namespace GameServer {
         }
 
         public void Disconnect() {
-            Console.WriteLine($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
+            int y = 1;
+            foreach(var x in Server.clients.Values) {
+                if (x != this) y++;
+                else {
+                    break;
+                }
+            }
+            Console.WriteLine($"client{y} - {tcp.socket.Client.RemoteEndPoint} has disconnected.");
 
             player = null;
             tcp.Disconnect();

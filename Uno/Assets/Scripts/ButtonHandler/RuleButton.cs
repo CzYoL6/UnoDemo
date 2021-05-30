@@ -9,13 +9,13 @@ public class RuleButton : MonoBehaviour
     public Sprite ruleIcon, ShutIcon;
     public void showRule() {
         if (!showing) {
-            UIManager.instance.RulePanel.SetActive(true);
+            UIManager_welcome.instance.RulePanel.SetActive(true);
             //GetComponentInChildren<Text>().text = "πÿ±’";
             GetComponent<Image>().sprite = ShutIcon;
             showing = true;
         }
         else {
-            UIManager.instance.RulePanel.SetActive(false);
+            UIManager_welcome.instance.RulePanel.SetActive(false);
             //GetComponentInChildren<Text>().text = "πÊ‘Ú";
             GetComponent<Image>().sprite = ruleIcon;
             showing = false;

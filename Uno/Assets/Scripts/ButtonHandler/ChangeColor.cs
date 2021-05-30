@@ -5,9 +5,9 @@ using UnityEngine;
 public class ChangeColor : MonoBehaviour
 {
     public void ChangeTheColorTo(int color) {
-        GameManager.instance.localPlayer.GetComponent<PlayerManager>().selectedCard = Card.getNewCard((VALUE)GameManager.instance.localPlayer.GetComponent<PlayerManager>().selectedCard.value
+        GameManager_game.instance.localPlayer.GetComponent<PlayerManager>().selectedCard = Card.getNewCard((VALUE)GameManager_game.instance.localPlayer.GetComponent<PlayerManager>().selectedCard.value
             ,(COLOR)color);
-        GameManager.instance.mePlayCard(false);
+        GameManager_game.instance.mePlayCard(false);
         gameObject.SetActive(false);
     }
 }

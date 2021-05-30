@@ -21,7 +21,7 @@ public class ClientHandle : MonoBehaviour
         int _id = _packet.ReadInt();
         string _userName = _packet.ReadString();
 
-        GameManager.instance.SpawnPlayer(_id, _userName);
+        GameManager_game.instance.SpawnPlayer(_id, _userName);
     }
 
     public static void DealCardKnown(Packet _packet) {
@@ -30,9 +30,9 @@ public class ClientHandle : MonoBehaviour
 
 
         Card _newCard = Card.getNewCard(_value, _color);
-        
 
-        GameManager.instance.DealCardToMe(_newCard);
+
+        GameManager_game.instance.DealCardToMe(_newCard);
 
     }
 
@@ -42,7 +42,7 @@ public class ClientHandle : MonoBehaviour
         COLOR _color = (COLOR)_packet.ReadInt();
 
         Card _newCard = Card.getNewCard(_value, _color);
-        GameManager.instance.DealCardToOtherPlayer(_playerToDeal, _newCard);
+        GameManager_game.instance.DealCardToOtherPlayer(_playerToDeal, _newCard);
 
     }
 
@@ -54,22 +54,22 @@ public class ClientHandle : MonoBehaviour
         int leftCount = _packet.ReadInt();
 
         if (shoutUno) {
-            GameManager.instance.SomeoneUno(_player);
+            GameManager_game.instance.SomeoneUno(_player);
         }
         if(!shoutUno && leftCount == 1) {
-            GameManager.instance.CanReport(_player);
+            GameManager_game.instance.CanReport(_player);
         }
 
         if(_player == 0) {
             //开局的那张牌
-            GameManager.instance.updateLastAndLastButOne(_card, null);
+            GameManager_game.instance.updateLastAndLastButOne(_card, null);
             return;
         }
 
-        Card lastButOneCard = GameManager.instance.theLastCard;
-        GameManager.instance.updateLastAndLastButOne(_card, lastButOneCard);
+        Card lastButOneCard = GameManager_game.instance.theLastCard;
+        GameManager_game.instance.updateLastAndLastButOne(_card, lastButOneCard);
 
-        GameManager.instance.otherPlayCard(_player, _card, shoutUno, leftCount);
+        GameManager_game.instance.otherPlayCard(_player, _card, shoutUno, leftCount);
 
     }
 
@@ -84,50 +84,50 @@ public class ClientHandle : MonoBehaviour
             lastButOneCard = _packet.ReadCard();
         int lastPlayerId = _packet.ReadInt();
 
-        GameManager.instance.updateLastAndLastButOne(lastCard, lastButOneCard);
-        GameManager.instance.idOfLastPlayer = lastPlayerId;
+        GameManager_game.instance.updateLastAndLastButOne(lastCard, lastButOneCard);
+        GameManager_game.instance.idOfLastPlayer = lastPlayerId;
 
 
-        GameManager.instance.ItsMyTurn(true);
+        GameManager_game.instance.ItsMyTurn(true);
 
         if((lastCard.value == VALUE.SKIP || lastCard.value == VALUE.PLUS2) && hasToSkip) {
-            GameManager.instance.HasToSkip();
+            GameManager_game.instance.HasToSkip();
             return;
         }
 
         //如果是+4就选择是否质疑
         if (lastCard.value == VALUE.PLUS4 && ableToQuestion) {
-            GameManager.instance.ProcessQuestion();
+            GameManager_game.instance.ProcessQuestion();
             return;
         }
 
-        
 
-        
-        GameManager.instance.CheckIfCanContinue(lastCard);
+
+
+        GameManager_game.instance.CheckIfCanContinue(lastCard);
     }
 
     public static void Win(Packet _packet) {
         int winnerId = _packet.ReadInt();
-        GameManager.instance.winAndRestart(winnerId);
+        GameManager_game.instance.winAndRestart(winnerId);
     }
 
     public static void WhosTurn(Packet _packet) {
         int whosTurn = _packet.ReadInt();
-        GameManager.instance.WhosTurn(whosTurn);
+        GameManager_game.instance.WhosTurn(whosTurn);
     }
 
     public static void ChangeDir(Packet _packet) {
         int dir = _packet.ReadInt();
-        GameManager.instance.ChangeDir(dir);
+        GameManager_game.instance.ChangeDir(dir);
     }
 
     public static void SomeoneReportSucceed(Packet _packet) {
-        GameManager.instance.SomeoneReportSucceed();
+        GameManager_game.instance.SomeoneReportSucceed();
     }
 
     public static void Restart(Packet _packet) {
-        GameManager.instance.Restart();
+        GameManager_game.instance.Restart();
         
     }
 }

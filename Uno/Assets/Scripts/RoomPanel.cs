@@ -27,7 +27,7 @@ public class RoomPanel : MonoBehaviour
             curTime = Time.time;
             RequestRoomUpdate();
         }
-        Debug.Log("!!!");
+        //Debug.Log("!!!");
     }
 
     public void Show(bool f) {

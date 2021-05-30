@@ -6,6 +6,6 @@ public class BackButton : MonoBehaviour
 {
     public void back() {
         Client.instance.Disconnect();
-        GameManager.instance.Restart();
+        GameManager_game.instance.Restart();
     }
 }

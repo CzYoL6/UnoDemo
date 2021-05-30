@@ -8,11 +8,11 @@ public class RoomButton : MonoBehaviour
     public ServerInfo serverInfo;
     public Text text;
     public void enterServer() {
-        if (UIManager.instance.roomPanelUserNameInputField.GetComponent<InputField>().text == "")
-            return;
+        /*if (UIManager.instance.roomPanelUserNameInputField.GetComponent<InputField>().text == "")
+            return;*/
         /*startMenu.SetActive(false);
         usernameField.enabled = false;*/
-        Client.instance.ConnectToServer(serverInfo.ip, serverInfo.port);
+        GameManager_room.instance.EnterRoom(serverInfo.ip, serverInfo.port, serverInfo.maxPlayer);
     }
     public void setInfo(ServerInfo _serverInfo) {
         serverInfo = _serverInfo;

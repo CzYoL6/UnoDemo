@@ -13,7 +13,7 @@ public class Client : MonoBehaviour
     public string ip;
     public int port;
     public int myId = 0;
-
+    public string userName;
     public TCP tcp;
 
     private bool isConnected = false;
@@ -40,7 +40,7 @@ public class Client : MonoBehaviour
             }
             catch (Exception _ex) {
                 Disconnect();
-                GameManager.instance.Restart();
+                GameManager_game.instance.Restart();
                 Debug.Log($"Error sending data via TCP: {_ex}");
 
             }
@@ -72,11 +72,10 @@ public class Client : MonoBehaviour
             receivedData = new Packet();
 
             //UIManager.instance.menu.SetActive(false);
-            UIManager.instance.roomPanel.GetComponent<RoomPanel>(). Show(false) ;
-
-            UIManager.instance.lastButOneCard.SetActive(true);
-            UIManager.instance.lastCard.SetActive(true);
-            UIManager.instance.backButton.SetActive(true);
+            //UIManager_game.instance.roomPanel.GetComponent<RoomPanel>().Show(false);
+            UIManager_game.instance.lastButOneCard.SetActive(true);
+            UIManager_game.instance.lastCard.SetActive(true);
+            UIManager_game.instance.backButton.SetActive(true);
 
             stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
         }
@@ -87,8 +86,9 @@ public class Client : MonoBehaviour
                     int _byteLength = stream.EndRead(_result);
                     if (_byteLength <= 0) {
                         //disconnect,server is closed
+                        Debug.Log("server closed.");
                         Disconnect();
-                        GameManager.instance.Restart();
+                        GameManager_game.instance.Restart();
                         return;
                     }
 
@@ -104,7 +104,7 @@ public class Client : MonoBehaviour
                     Debug.Log($"Error receiving TCP data: {_ex}");
                     //disconnect, tcp error
                     Disconnect();
-                    GameManager.instance.Restart();
+                    GameManager_game.instance.Restart();
                 }
             });
             
@@ -158,6 +158,7 @@ public class Client : MonoBehaviour
 
     }
     private void InitializeClientData() {
+
         packetHandlers = new Dictionary<int, PacketHandler>() {
             {(int)ServerPackets.welcome, ClientHandle.Welcome },
             {(int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
@@ -197,6 +198,7 @@ public class Client : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         tcp = new TCP();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void ConnectToServer(string IP, int PORT) {
@@ -217,8 +219,8 @@ public class Client : MonoBehaviour
         Disconnect();
     }
     private void OnApplicationPause(bool pause) {
-        #if UNITY_IPHONE || UNITY_ANDROID
-        if(pause) Disconnect();
-        #endif
+#if UNITY_IPHONE || UNITY_ANDROID
+        if (pause) Disconnect();
+#endif
     }
 }
