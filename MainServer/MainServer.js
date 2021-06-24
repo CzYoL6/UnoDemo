@@ -5,7 +5,7 @@ const { json } = require('express');
 
 const app = new express();
 
-const version = 1.2;
+const version = 1.3;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
