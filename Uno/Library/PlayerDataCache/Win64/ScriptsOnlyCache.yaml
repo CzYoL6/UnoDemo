@@ -1368,4 +1368,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game_4.unity
   - Assets/Scenes/Game_3.unity
   - Assets/Scenes/Game_2.unity
-  playerPath: D:/GameDes1gn/UnoDemo/Uno/Builds/UnoDemo1.3/UnoDemo.exe
+  playerPath: D:/GameDes1gn/UnoDemo/Uno/Builds/UnoDemo1.3fullScreen/UnoDemo.exe

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
+      "projectUniqueName": "E:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
       "projectName": "GameServer",
-      "projectPath": "D:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
+      "projectPath": "E:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
       "packagesPath": "C:\\Users\\zaiyi\\.nuget\\packages\\",
-      "outputPath": "D:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\obj\\",
+      "outputPath": "E:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zaiyi\\AppData\\Roaming\\NuGet\\NuGet.Config",

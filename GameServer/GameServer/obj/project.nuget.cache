@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3AZihrlLvQm7DryS2WKwSWZ87So5V5SOZQ4eg6FSscFeJ9za0G7MnEIO5tfVeGQRvsOcQzCuVxk4I5FCo5iC8g==",
+  "dgSpecHash": "WdVRB3BxWB7Mx9czs3oHTwA1/k7gjN10hlEnq3CvqmDy0WPjr3Okc8rw7HRUL6jAwFOUea3jLqxzNziTI+N2bA==",
   "success": true,
-  "projectFilePath": "D:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
+  "projectFilePath": "E:\\GameDes1gn\\UnoDemo\\GameServer\\GameServer\\GameServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zaiyi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
